@@ -42,11 +42,13 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.ibm/db2jcc -->
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.12</version>
+    <version>5.1.6</version>
 </dependency>
+
 
 
 		<dependency>

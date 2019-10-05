@@ -22,7 +22,7 @@ public class Department {
 	private String logo;
 	
 	@Column(name = "HOD")
-	private Integer hod;
+	private String hod;
 
 	@Column(name = "Timings")
 	private String timings;
@@ -30,6 +30,8 @@ public class Department {
 	@Column(name = "Description")
 	private String Description;
 	
+	@Column(name = "location")
+	private String location;
 	
 	public int getId() {
 		return id;
@@ -55,11 +57,11 @@ public class Department {
 		this.logo = logo;
 	}
 
-	public Integer getHod() {
+	public String getHod() {
 		return hod;
 	}
 
-	public void setHod(Integer hod) {
+	public void setHod(String hod) {
 		this.hod = hod;
 	}
 
@@ -78,5 +80,16 @@ public class Department {
 	public void setDescription(String description) {
 		Description = description;
 	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+	
+
 
 }

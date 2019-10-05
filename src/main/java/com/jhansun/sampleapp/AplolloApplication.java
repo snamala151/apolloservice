@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication
-public class PassApplication {
+public class AplolloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PassApplication.class, args);
+        SpringApplication.run(AplolloApplication.class, args);
     }
 }
