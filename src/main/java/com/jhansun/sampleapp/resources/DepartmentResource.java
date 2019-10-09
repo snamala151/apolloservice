@@ -45,7 +45,7 @@ public class DepartmentResource {
     	return departmentRepository.findOne(deptId);
     } 
 	
-	@RequestMapping(value = "/{deptId}", method = RequestMethod.GET)
+	@RequestMapping(value = "/{deptId}", method = RequestMethod.DELETE)
     public  List<Department> deleteDepartment(@PathVariable("deptId") Integer deptId) {
     	 departmentRepository.delete(deptId);
     	 return departmentRepository.findAll();
